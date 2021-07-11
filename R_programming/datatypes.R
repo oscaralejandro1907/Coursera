@@ -20,3 +20,12 @@ getwd() #Get your working directory
 #vector (A vector contain objects of the same class)
 
 #list ( Can contain object of different classes, here are included dataframes)
+
+#The c() function (concatenate) is used to create vectors of objects
+
+#factor() function over a vector defines it as factor values
+
+x <- c(17, 14, 4, 5, 13, 12, 10)
+
+x[x > 10] <- 4
+
