@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8258de1e-9b6f-4082-a2d3-d506c01df2d7" name="Default Changelist" comment="" />
+    <list default="true" id="8258de1e-9b6f-4082-a2d3-d506c01df2d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/regression.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department.R" beforeDir="false" afterPath="$PROJECT_DIR$/anova.R" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +52,9 @@
       <workItem from="1624760299601" duration="5398000" />
       <workItem from="1625160553712" duration="144000" />
       <workItem from="1625494966196" duration="5447000" />
+      <workItem from="1627517473311" duration="722000" />
+      <workItem from="1627523963085" duration="1010000" />
+      <workItem from="1627575238307" duration="2514000" />
     </task>
     <servers />
   </component>
