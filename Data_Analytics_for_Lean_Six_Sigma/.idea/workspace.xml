@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8258de1e-9b6f-4082-a2d3-d506c01df2d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regression.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pruebas.R" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department.R" beforeDir="false" afterPath="$PROJECT_DIR$/anova.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression.R" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,6 +56,12 @@
       <workItem from="1627517473311" duration="722000" />
       <workItem from="1627523963085" duration="1010000" />
       <workItem from="1627575238307" duration="2514000" />
+      <workItem from="1628451557598" duration="1066000" />
+      <workItem from="1628453815300" duration="565000" />
+      <workItem from="1628454439201" duration="15000" />
+      <workItem from="1628454485933" duration="302000" />
+      <workItem from="1628454839146" duration="552000" />
+      <workItem from="1628458607142" duration="15000" />
     </task>
     <servers />
   </component>
