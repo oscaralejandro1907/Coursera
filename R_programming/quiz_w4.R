@@ -14,8 +14,8 @@ best <- function(state, outcome) {
   }
   if(!(outcome %in% c("heart attack", "heart failure", "pneumonia"))){
     stop("invalid outcome")
-
   }
+
   ## Return hospital name in that state with lowest 30-day death rate
   df <- as.data.frame(cbind(data[, 2],  # hospital
                             data[, 7],   # state
@@ -24,8 +24,17 @@ best <- function(state, outcome) {
                             data[, 23]), # pneumonia
                       stringsAsFactors = FALSE)
 
-  colnames(df) <- c("hospital", "state", "heart attack", "heart failure", "pneumonia")
-  df
+  colnames(df) <- c("Hospital", "State", "heart attack", "heart failure", "pneumonia")
+
+  interest <- subset(df, df$State==state, select = c("Hospital",outcome))
+
+  interest[,outcome] <- as.numeric(interest[,outcome])
+  interest <- interest[!is.na(interest[,outcome]),]
+
+  interest <- interest[order(interest[,outcome]),]
+
+  return(interest[, "Hospital"][1])
+
 }
 
-pr<-best("AL","heart attack")
+g<-best("MD","pneumonia")
